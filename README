@@ -1,4 +1,6 @@
-NOTE: This source is preset to 1152MHz; if you would like a defferent frequency you must uncomment a predefined frequency in arch/arm/mach-msm/acpuclock-7201.c
+This kernel for the GT-S7560M has features like USB OTG (works natively in custom ROMs like OmniROM 4.4), F2FS, Bluetooth (BlueZ 5 dependencies backported and Bluedroid must be replaced with BlueZ in the Android build tree, yada yada) , and more, all working if you compile for cyanogenmod_kyle02_defconfig. If you have any questions about the source, try shooting me a message at my XDA account "Codename13", which I occassionally check.
+
+NOTE: This source is preset to 1152MHz; if you would like a different frequency you must uncomment a predefined frequency in arch/arm/mach-msm/acpuclock-7201.c
 
 	Linux kernel release 3.x <http://kernel.org/>
 
